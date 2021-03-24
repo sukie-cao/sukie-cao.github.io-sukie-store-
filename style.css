@@ -255,7 +255,10 @@ a.work:hover .bottom{
   width: 46%;
   padding: 2%;
   float: left;
+  font-size: 14px;
+  text-align: justify;
 }
+
 .content .half img{
   width: 100%;
   height: auto;
@@ -333,7 +336,10 @@ a.work:hover .bottom{
 }
 
 /* --------------blog------------------- */
-
+a.blogwork{
+  text-decoration: none;
+  transition: 1s all ease-in-out;
+}
 .page.blog .posts{
   width: 680px;
   margin: 0 auto;
@@ -348,17 +354,20 @@ a.work:hover .bottom{
 }
 .page.blog .posts .post h1{
   font-size: 28px;
-  margin: 0;
+  margin: 10px 0;
+  color: #000;
 }
 .page.blog .posts .post span{
   color: #777;
   font-size: 13px;
 }
 .page.blog .posts .post p{
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.8px;
   color: #333;
   padding: 10px 0;
+  text-align: justify;
 }
 .page-nav{
   text-align: center;
@@ -370,4 +379,46 @@ a.work:hover .bottom{
 }
 .page-nav a:hover{
   color: #000;
+}
+.page.blog .posts .post h1:hover{
+  color: #666;
+}
+.page.blog .parts{
+  width: 680px;
+  margin: 0 auto;
+  width: 70%;
+}
+.page.blog .parts .part{
+  padding: 40px 0;
+}
+.page.blog .parts .part h1{
+  font-size: 28px;
+  margin: 10px 0 40px 0;
+  color: #000;
+  text-align: justify;
+}
+.page.blog .parts .part p{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.8px;
+  color: #000;
+  padding:5px 0;
+  text-align: justify;
+}
+.page.blog .parts .part2{
+  padding: 20px 0;
+}
+.page.blog .parts .part2 h1{
+  font-size: 28px;
+  margin: 0 0 40px 0;
+  color: #000;
+  text-align: justify;
+}
+.page.blog .parts .part2 p{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.8px;
+  color: #000;
+  padding:5px 0;
+  text-align: justify;
 }
