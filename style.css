@@ -12,8 +12,8 @@ body{
   line-height: 80px;
 }
 .header .logo img{
-  height: 60px;
-  margin: 10px 20px;
+  height: 40px;
+  margin: 20px 20px 10px 20px;
   float: left;
 }
 .header .menu{
@@ -102,9 +102,7 @@ body{
   margin: 0;
   color: #666;
 }
-.welcome p{
-  line-height: 1;
-}
+
 
 /* --------------works------------------- */
 a.work{
@@ -180,8 +178,14 @@ a.work:hover .bottom{
 .footer .bottom .logo{
   float: left;
 }
+
+.footer .bottom .logo img{
+  height: 35px;
+  float: left;
+}
 .footer .bottom .copyright{
   float: right;
+  margin: 10px 0 0 0;
 }
 .footer .box p{
   letter-spacing: normal !important;
@@ -225,6 +229,12 @@ a.work:hover .bottom{
 }
 .page-slider h1{
   color: #fff;
+}
+.page-slider p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 1.3px;
 }
 .content{
   max-width: 1200px;
@@ -304,6 +314,7 @@ a.work:hover .bottom{
   bottom: 40px;
   right: 20px;
   font-size: 14px;
+  letter-spacing: 0.8px;
   width: 120px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding: 10px 0;
@@ -345,9 +356,7 @@ a.blogwork{
   margin: 0 auto;
   width: 60%;
 }
-.page.blog .welcome h1{
-  padding: 10px 0;
-}
+
 .page.blog .posts .post{
   padding: 40px 0;
   border-bottom: 1px solid #ddd;
